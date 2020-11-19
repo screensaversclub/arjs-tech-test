@@ -57,30 +57,13 @@
 				smoothThreshold="5"
 			>
 				<!-- as a child of the a-nft entity, you can define the content to show. here's a GLTF model entity -->
-				<a-entity
-					gltf-model="/arjs-tech-test/gltf/trex.gltf"
-					scale="100 100 100"
-					position="0 3 50"
-				>
-				</a-entity>
-								<a-entity
+
+			<a-entity
 					gltf-model="/arjs-tech-test/gltf/thing.gltf"
 					scale="100 100 100"
 					position="0 3 -50"
+				  	rotation="90 0 0"
 				>
-				</a-entity>
-								<a-entity
-					gltf-model="/arjs-tech-test/gltf/trex.gltf"
-					scale="10 10 10"
-					position="0 3 -50"
-				>
-				</a-entity>
-								<a-entity
-					gltf-model="/arjs-tech-test/gltf/thing.gltf"
-					scale="10 10 10"
-					position="0 3 50"
-				>
-				</a-entity>
 			</a-nft>
 			<!-- static camera that moves according to the device movemenents -->
 			<a-entity camera></a-entity>
